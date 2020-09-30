@@ -30,7 +30,7 @@ Fill in your First name and Last name in the 1st field, and fill in your NON Uof
 **Activity 3: Briefly summarize the difference between SQL or NoSQL database**
 
 SQL databases are relational databases that defines relationships in the form of tables.
-NoSQL databases are non-relational databases that does not require a fixed schema, avoids joins, and is easy to scale.
+NoSQL databases are non-relational databases that does not require a fixed schema. And NoSQL databases include document databases, key-value stores, wide-column stores, and graph databases.
 SQL databases are table based databases whereas NoSQL databases can be document based, key-value pairs, graph databases.
 SQL databases are vertically scalable while NoSQL databases are horizontally scalable.
 SQL databases have a predefined schema whereas NoSQL databases use dynamic schema for unstructured data.
