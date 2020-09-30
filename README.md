@@ -11,15 +11,19 @@ A screen shot showing that you have successfully finish the task (with a timesta
 **Activity 2:**
 
 Run the project and make a screenshot
+
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_a.jpg)
 
 Fill in your First name and your UofT email address, click submit
+
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_b.jpg)
 
 Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd field, click submit.
+
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_c.jpg)
 
 Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in the 2nd field, click submit.
+
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_d.jpg)
 
 
