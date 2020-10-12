@@ -7,7 +7,7 @@ The Dockerfile is under the current directory
 2. Run docker file and route the app to port 5000 using the command: docker run -it --name lab4 --rm -p 5000:5000 lab4
 3. Enter the url http://127.0.0.1:5000/ on a browser then you can see your application.
 
-**Screenshots**
+#Screenshots
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Screenshot1.jpg)
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Screenshot2.jpg)
 ![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Screenshot3.jpg)
