@@ -1,35 +1,8 @@
-# ECE444-F2020-Lab3
-
-This repo is a clone of https://github.com/miguelgrinberg/flasky
-
-**Activity 1:**
-
-A screen shot showing that you have successfully finish the task (with a timestamp in ‘LLLL’ format)
-![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity1.jpg)
-
-
-**Activity 2:**
-
-Run the project and make a screenshot
-
-![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_a.jpg)
-
-Fill in your First name and your UofT email address, click submit
-
-![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_b.jpg)
-
-Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd field, click submit.
-
-![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_c.jpg)
-
-Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in the 2nd field, click submit.
-
-![alt text](https://github.com/ZihangH/ECE444-F2020-Lab3/blob/master/screenshots/Activity2_d.jpg)
-
-
-**Activity 3: Briefly summarize the difference between SQL or NoSQL database**
-
-SQL databases are relational databases that defines relationships in the form of tables and they are vertically scalable.
-NoSQL databases are non-relational databases that does not require a fixed schema and they are horizontally scalable.
-SQL databases are table based databases whereas NoSQL databases can be document based, key-value pairs, graph databases.
-SQL databases have a predefined schema whereas NoSQL databases use dynamic schema for unstructured data.
+# ECE444-F2020-Lab4
+# Zihang Huang
+# Instructions on how to build and start the system
+# The Dockerfile is included in the current directory
+# Steps:
+# 1. Build the docker image using the Dockerfile using the command: docker build -t=docker_lab4.
+# 2. Run docker file and route the app to port 5000 using the command: docker run -it --name docker_lab4 --rm -p 5000:5000 docker_lab4
+# 3. Enter the url http://127.0.0.1:5000/ on a browser then you can see your application.
