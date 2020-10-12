@@ -6,7 +6,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'hard to guess string'
+app.config['SECRET_KEY'] = 'hardtoguessstring'
 
 bootstrap = Bootstrap(app)
 moment = Moment(app)
@@ -32,9 +32,13 @@ def index():
         if old_email is not None and old_email != form.email.data:
             flash('Looks like you have changed your email!')
         session['name'] = form.name.data
-        session['email'] = form.email.data
+        if "utoronto" in form.email.data:
+            session['email'] = form.email.data
+        else:
+            session['email'] = "Please use your UofT email."
+
         return redirect(url_for('index'))
     return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
